@@ -1,5 +1,4 @@
 import Container from './components/Container'
-import './App.scss'
 import './stylesheets/main.scss'
 import Header from './components/Header'
 import SideAccordion from './components/SideAccordion'
