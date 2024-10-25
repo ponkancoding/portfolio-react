@@ -1,11 +1,8 @@
-import { fileURLToPath } from 'url';
-const componentsDir = fileURLToPath(new URL('./src', import.meta.url));
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     './index.html',
-    `./${componentsDir}/**/*.{js,ts,jsx,tsx,css,scss}`
+    `./src/**/*.{html,js,ts,jsx,tsx,css,scss}`
   ],
   theme: {
     extend: {

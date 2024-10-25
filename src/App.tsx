@@ -40,7 +40,7 @@ function App() {
       <Header />
       <main className='mt-[120px]'>
         <h1 className='text-6xl text-center mb-2'>I'm Marianne, <span className='text-gray-500'>a Frontend Web Developer.</span></h1>
-        <p className='w-[80%] text-lg text-center mx-auto'>I specialize in crafting clean, responsive, and visually appealing websites with a focus on usability and performance. With a strong foundation in HTML, CSS, JavaScript, and modern frameworks, I bring ideas to life on the web by transforming complex designs into interactive, user-friendly interfaces.</p>
+        <p className='w-[60%] text-lg text-center mx-auto'>I create clean, responsive websites focused on usability and performance, transforming designs into interactive, user-friendly experiences.</p>
         <Divider className='my-8'/>
         <p className='text-xl text-center mt-8'>Explore my work, and let's create something exceptional together!</p>
         <SideAccordion items={workItems} />
